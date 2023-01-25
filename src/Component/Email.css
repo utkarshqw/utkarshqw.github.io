@@ -1,0 +1,50 @@
+form{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom:25px
+    
+}
+
+input{
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.emailparent{
+    border: 1px solid gray;
+    width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.701);
+    color: white;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.lastinput{
+    margin:10px;
+    background-color: gray;
+    color: white;
+}
+.lastinput:hover{
+    /* background-color: rgba(255, 0, 0, 0.546); */
+}
+.textarea{
+    height: 90px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.headingcontact{
+   font-size: 45px;
+   color: white;
+}
+
+

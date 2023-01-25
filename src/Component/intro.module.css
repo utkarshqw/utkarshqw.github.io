@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.candidateimage{
+
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+
+button{
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3%;
+    font-weight: 700;
+}
+
+.introparent{
+    /* border: 1px solid red; */
+    /* background-color:rgba(0, 255, 255, 0.583); */
+    /* background-color:#fff8dc; */
+    padding-top: 20px;
+    padding-bottom: 75px;
+    background-color: white;
+}
+
+.introname{
+
+    /* border: 1px solid green; */
+    display: flex;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding: 30px;
+    justify-content: center;
+    width: 80%;
+
+
+}
+.introname > div:nth-child(1){
+    /* border:1px solid blue; */
+    width: 70%;
+}
+.introname > div:nth-child(1) > p:nth-child(1),.introname> div:nth-child(1) > p:nth-child(3){
+    color: gray;
+}
+
+.candidatename{
+    font-size: 60px;
+    color: black;
+}
+
+.aboutme > p:nth-child(1) {
+    font-size: 50px;
+    font-weight: 300;
+    color: black;
+    opacity: .7;
+    
+}
+
+.aboutme > p:nth-child(2){
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: gray;
+}
+
+
+@media screen and (max-width:756px) {
+    
+
+    .candidateimage{
+        height:200px ;
+    }
+
+    .introname{
+        width: 85%;
+        padding: 0px;
+    }
+    .candidatename{
+        font-size: 40px;
+        
+    }
+}
+
+@media screen and (max-width:436px) {
+    
+
+    .candidateimage{
+        height:150px ;
+    }
+
+    .introname{
+        width: 85%;
+        padding: 0px;
+    }
+    .candidatename{
+        font-size: 30px;
+    }
+    button{
+      font-size: 10px;
+    }
+}

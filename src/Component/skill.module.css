@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.skillimg{
+    height: 100px;
+    border: 1px solid white;
+} 
+
+.skillparent{
+    /* border:1px solid red; */
+    /* background-color:cornsilk; */
+    padding: 50px;
+}
+
+.skillparent>p{
+    /* border: 1px solid teal; */
+}
+
+.skill > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 150px;
+    margin:auto;
+    transition: 1s ease-out;
+}
+
+.skill > div:hover{
+    transform: scale(1.1);
+}
+.cardparent{
+    /* border: 1px solid blue; */
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px
+}
+
+.skillheading{
+    font-size:60px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+@media screen and (max-width:700px) {
+    
+
+    .skillimg{
+        height: 60px;
+    }
+    .skillparent{
+        padding: 0px;
+    }
+     .cardparent{
+        padding: 10px;
+     }
+
+     .skill > div{
+        
+        border-radius: 5px;
+        padding: 10px;
+        width: 100px;
+        height: 120px;
+        margin:auto;
+        transition: 1s ease-out;
+    }
+}
+
+@media screen and (max-width:366px) {
+    .skillimg{
+        height: 50px;
+    }
+
+    .skillname{
+        font-size: 13px;
+    }
+    .skill > div{
+        width: 90px;
+        height: 100px;
+    }
+    
+    .cardparent{
+        gap:5px
+    }
+}
+
+

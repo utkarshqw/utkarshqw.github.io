@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactparent{
+    background-color: gray;
+    
+}
+.headingcontact{
+    /* border: 1px solid black; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contactplusemail{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactplusemail > div {
+    width: 30%;
+    /* border: 1px solid black; */
+
+}
+
+.contactplusemail > div:nth-child(1){
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+    text-decoration: underline;
+}
+
+.footericon{
+    
+    margin-right: 10px;
+}
+
+@media screen and (max-width:798px) {
+    
+    .contactplusemail{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .contactplusemail > div{
+        /* border: 1px solid red; */
+        width: auto;
+    }
+}

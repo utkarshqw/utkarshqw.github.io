@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.projectparent{
+    /* background-color: rgba(255,0,0,.289); */
+    /* background-color: #fff8dc; */
+    /* padding-bottom:40px */
+}
+
+.headingproject{
+    font-size: 60px;
+    font-weight: 100;
+    height: 120px;
+    opacity: .7;
+    /* background-color: #fff8dc; */
+    /* background-color: rgba(255,0,0,.289) */
+}
+
+.image3{
+    width: 100%;
+    height: 100%;
+}
+
+.pcard{
+    border: 1px solid rgba(128, 128, 128, 0.605);
+    border-radius: 4px;
+    width: 70%;
+    /* height: 480px; */
+    margin: auto;
+    /* background-color:rgba(128, 128, 128, 0.775); */
+    background-color: rgba(128, 128, 128, 0.526);
+    display: flex;
+    margin-bottom: 30px;
+}
+.banner{
+    width: 50%;
+}
+
+.proinfo{
+     padding: 10px;
+    width: 50%;
+    
+}
+
+.proinfo> p {
+    color: rgba(0, 0, 0, 0.628);
+}
+
+.proinfo > h2 {
+    opacity: .8;
+}
+
+.projectparent{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px; */
+    
+}
+
+.techstack{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.link{
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 10%;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width:800px) {
+  .pcard{
+    flex-direction: column;
+    
+  } 
+  
+  .banner{
+    width: 100%;
+
+  }
+
+  .proinfo{
+    width: 100%;
+  }
+    
+}
+
+@media screen and (max-width:354px) {
+
+  
+
+
+}

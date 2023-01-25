@@ -1,0 +1,9 @@
+.calenderparent{
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
